@@ -3,7 +3,7 @@
 this script download ssl-certificate from seo.ir or any website and after that download Investment funds list on the /home/sandoogh repository
 
 ## How to use :
-1.pull repository
+1.clone repository
 
 2.run 
 ```get-crt.sh -u seo.ir```
