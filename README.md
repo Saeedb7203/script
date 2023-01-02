@@ -13,15 +13,15 @@ this script download ssl-certificate from seo.ir or any website and after that d
 3.run `get-list.sh`
 
 if you want to run daily:
-
+first in terminal run
 ```sudo crontab -e```
 
-and if you want to download daily certificate and list, add this script at the end of file:
+and to download daily certificate and list, add this script at the end of file:
 ```
 1 0 * * * /path-to-the-get-cert/get-crt.sh -u seo.ir
 2 0 * * * /path-to-the-get-list/get-list.sh
 ```
 
-or if you want just download just list, only add get-list script in crontab file:
+or if you want to just download list, only add get-list script in crontab file:
 
 ```1 0 * * * /path-to-the-get-list/get-list.sh```
